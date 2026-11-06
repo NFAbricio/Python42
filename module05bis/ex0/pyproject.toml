@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "alchemist-lab"
+version = "0.1.0"
+description = "Alchemist Laboratory"
+authors = ["Apprentice <apprentice@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.0"
+numpy = "^1.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
